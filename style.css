@@ -1,0 +1,96 @@
+.container{
+ display: grid;
+ grid-template-columns: auto auto;
+ background-color: rgb(24, 127, 183);
+ 
+}
+body{
+    background-color:white;
+}
+.left-panel{
+    left: 0%;
+    background-color: beige;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+    
+ .home{
+    position: fixed;
+    text-align: center;
+    left: 30%;
+    
+    background-color: azure;
+    height: 100%;
+    position:absolute;
+    width: 100%;
+    padding-left: 100px;
+ }
+ h2{
+    font-family: serif;
+    text-decoration: solid;
+    font-weight: 800;
+    color: rgba(8, 128, 86, 0.852);
+ }
+ .p{
+    color: rgb(83, 43, 18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: solid;
+ }
+  li{
+    list-style-type: none;
+    margin: 50px;
+    
+  }
+  .item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+    text-decoration: solid;
+    font-weight: 3000;
+    
+  }
+  .item:hover{
+    
+    font-size: 30px;
+  }
